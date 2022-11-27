@@ -2,9 +2,10 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/modal">Modal</router-link> |
+    <!-- <router-link to="/modal">Modal</router-link> | -->
     <router-link to="/gallery">Gallery</router-link>
   </nav>
+  <br>
   
   <router-view/>
 </template>
@@ -23,6 +24,7 @@ nav {
   font-size: 38px;
 
   a {
+    text-decoration: none;
     font-weight: bold;
     color: #2c3e50;
 
