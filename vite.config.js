@@ -1,4 +1,4 @@
-10 lines (9 sloc)  202 Bytes
+// 10 lines (9 sloc)  202 Bytes
 
 import vue from '@vitejs/plugin-vue';
 import Icons from 'vite-plugin-icons';

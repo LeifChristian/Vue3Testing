@@ -17,7 +17,7 @@
     </h2> -->
 
         <img
-          style="margin-left: auto; margin-right: auto;"
+          style="margin-left: auto; margin-right: auto; margin-top: 2vh; height: 50vh;"
           class="rounded-lg"
           src="../assets/pic1.png"
           alt=""

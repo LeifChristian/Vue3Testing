@@ -3,7 +3,7 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Modal :title="things" :show="isShowing"></Modal>
     <Button @close="closey"  :title="things"></Button>
-    <AdsetVue :start="isShowing"></AdsetVue> <div :style="[isShowing ?{ display: 'none'} : {marginBottom: '43px'}]"> </div>
+    <Adset :start="isShowing"></Adset> <div :style="[isShowing ?{ display: 'none'} : {marginBottom: '43px'}]"> </div>
     <Modality @open="open" @closed="closed"></Modality>
     <!-- <ModalDialogVue :show="show"/> -->
   </div>
@@ -15,7 +15,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import Modal from './Modal.vue';
 import Modality from "../components/Modality.vue"
 import Button from '../components/Button.vue'
-import AdsetVue from '@/components/Adset.vue';
+import Adset from '@/components/Adset.vue';
 import {ref, toRefs } from 'vue';
 const things = ref('');
 const isShowing = ref(false)
