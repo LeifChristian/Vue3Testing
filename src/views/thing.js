@@ -22,7 +22,7 @@ export default () => {
         // padding-left: 10px;
         // padding-bottom: 10px;
         // border: 2px solid black;
-        color: green
+        color: green;
     `;
     const element = document.getElementById('gallery');
     element.style.cssText = myStyles;
